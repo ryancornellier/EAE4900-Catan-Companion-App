@@ -7,13 +7,12 @@ public class ResourceManager : MonoBehaviour
 {
     public Button WheatButtonPlus;
     public Button WheatButtonMinus;
-    public int WheatCounter;
+    public static int WheatCounter;
     public Text WheatText;
 
     // Start is called before the first frame update
     void Start()
     {
-        WheatCounter = 0;
         WheatButtonPlus.onClick.AddListener(incrementWheat);
         WheatButtonMinus.onClick.AddListener(decrementWheat);
         WheatText.text = WheatCounter.ToString();

@@ -57,6 +57,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\LoadScene.cs" />
      <Compile Include="Assets\Scripts\ResourceManager.cs" />
+     <Compile Include="Assets\Scripts\Trading.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>B:/School/EAE4900-Catan-Companion-App/EAE 4900 (Hybrid) Companion  App/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
