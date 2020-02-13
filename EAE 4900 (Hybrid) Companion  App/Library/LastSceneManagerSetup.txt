@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Resource Counter.unity
+- path: Assets/Scenes/Trader Offer.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
