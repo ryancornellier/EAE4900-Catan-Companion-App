@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/MainScreen.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/Resource Counter/Player Select.unity
+    path: Assets/Scenes/Player Select.unity
     guid: ab52d985382ce7e4faeccbbdd2efc53a
   - enabled: 1
     path: Assets/Scenes/Resource Counter/Resource Counter - White.unity
