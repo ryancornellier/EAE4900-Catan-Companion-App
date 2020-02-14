@@ -23,7 +23,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Resource Counter/Resource Counter - Orange.unity
     guid: 62fc5c47a6796a04bbd3695ade356896
-  - enabled: 1
-    path: Assets/Scenes/Resource Counter/Trader Offer.unity
+  - enabled: 0
+    path: Assets/__DELETED_GUID_Trash/e2b08fbe2ec73934daa0179e75416576
     guid: e2b08fbe2ec73934daa0179e75416576
+  - enabled: 1
+    path: Assets/Scenes/How to Play.unity
+    guid: 3af58d8c287e02e4980377d00fe10f82
+  - enabled: 1
+    path: Assets/Scenes/Trade Center.unity
+    guid: 5d51695a34c39bc47a6e50a46c80f0a4
   m_configObjects: {}
