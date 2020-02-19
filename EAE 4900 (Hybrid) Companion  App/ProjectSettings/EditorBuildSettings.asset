@@ -8,24 +8,24 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainScreen.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Player Select.unity
     guid: ab52d985382ce7e4faeccbbdd2efc53a
   - enabled: 1
-    path: Assets/Scenes/Resource Counter/Resource Counter - White.unity
+    path: Assets/Scenes/Resource Counter.unity
     guid: 09c24f02901587742b87fb56b3167644
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Resource Counter/Resource Counter - Blue.unity
     guid: f04b2f619b5f2584fb44a12dc389a6c8
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Resource Counter/Resource Counter - Red.unity
     guid: bdb2caef6d1782443b216563af35b7bc
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Resource Counter/Resource Counter - Orange.unity
     guid: 62fc5c47a6796a04bbd3695ade356896
   - enabled: 0
-    path: Assets/__DELETED_GUID_Trash/e2b08fbe2ec73934daa0179e75416576
-    guid: e2b08fbe2ec73934daa0179e75416576
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/How to Play.unity
     guid: 3af58d8c287e02e4980377d00fe10f82

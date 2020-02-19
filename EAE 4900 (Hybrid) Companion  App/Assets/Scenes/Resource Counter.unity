@@ -946,52 +946,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 383268761}
   m_CullTransparentMesh: 0
---- !u!1 &390793001
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 390793003}
-  - component: {fileID: 390793002}
-  m_Layer: 0
-  m_Name: WheatCounter
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &390793002
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 390793001}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f12d4dd210664342a94146a41d2ca0c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WheatButtonPlus: {fileID: 1860526192}
-  WheatButtonMinus: {fileID: 95149515}
-  WheatText: {fileID: 1239594493}
---- !u!4 &390793003
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 390793001}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 273, y: 100, z: -92.84472}
-  m_LocalScale: {x: 0.20475, y: 0.20475, z: 0.20475}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &397109330
 GameObject:
   m_ObjectHideFlags: 0
@@ -1511,6 +1465,7 @@ GameObject:
   m_Component:
   - component: {fileID: 718505460}
   - component: {fileID: 718505459}
+  - component: {fileID: 718505461}
   m_Layer: 0
   m_Name: Scene Manager
   m_TagString: Untagged
@@ -1544,6 +1499,38 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &718505461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 718505458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f12d4dd210664342a94146a41d2ca0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WheatButtonPlus: {fileID: 1860526192}
+  WheatButtonMinus: {fileID: 95149515}
+  White_WheatCounter: 0
+  WheatText: {fileID: 1239594493}
+  StoneButtonPlus: {fileID: 289448250}
+  StoneButtonMinus: {fileID: 383268763}
+  White_StoneCounter: 0
+  StoneText: {fileID: 981622953}
+  SheepButtonPlus: {fileID: 2007355096}
+  SheepButtonMinus: {fileID: 845230774}
+  White_SheepCounter: 0
+  SheepText: {fileID: 1414765097}
+  BrickButtonPlus: {fileID: 250486412}
+  BrickButtonMinus: {fileID: 488269666}
+  White_BrickCounter: 0
+  BrickText: {fileID: 1048997395}
+  WoodButtonPlus: {fileID: 631452488}
+  WoodButtonMinus: {fileID: 397109332}
+  White_WoodCounter: 0
+  WoodText: {fileID: 1762387358}
 --- !u!1 &798922924
 GameObject:
   m_ObjectHideFlags: 0
@@ -1608,7 +1595,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &845026230
 GameObject:
@@ -1923,52 +1910,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 981622951}
   m_CullTransparentMesh: 0
---- !u!1 &996159349
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 996159351}
-  - component: {fileID: 996159350}
-  m_Layer: 0
-  m_Name: BrickCounter
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &996159350
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 996159349}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f12d4dd210664342a94146a41d2ca0c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WheatButtonPlus: {fileID: 250486412}
-  WheatButtonMinus: {fileID: 488269666}
-  WheatText: {fileID: 1048997395}
---- !u!4 &996159351
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 996159349}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 269, y: 210.85571, z: -92.84472}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1001966249
 GameObject:
   m_ObjectHideFlags: 0
@@ -2301,7 +2242,7 @@ RectTransform:
   - {fileID: 886128047}
   - {fileID: 464225143}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 49.935}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2570,7 +2511,7 @@ MonoBehaviour:
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 1
+            m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 0
@@ -3523,52 +3464,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1508393577}
   m_CullTransparentMesh: 0
---- !u!1 &1624796347
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1624796349}
-  - component: {fileID: 1624796348}
-  m_Layer: 0
-  m_Name: StoneCounter
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1624796348
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1624796347}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f12d4dd210664342a94146a41d2ca0c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WheatButtonPlus: {fileID: 289448250}
-  WheatButtonMinus: {fileID: 383268763}
-  WheatText: {fileID: 981622953}
---- !u!4 &1624796349
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1624796347}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 281, y: 210.85571, z: -92.84472}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1652284920
 GameObject:
   m_ObjectHideFlags: 0
@@ -4041,52 +3936,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1937177839}
   m_CullTransparentMesh: 0
---- !u!1 &1955361336
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1955361338}
-  - component: {fileID: 1955361337}
-  m_Layer: 0
-  m_Name: 'SheepCounter '
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1955361337
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1955361336}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f12d4dd210664342a94146a41d2ca0c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WheatButtonPlus: {fileID: 2007355096}
-  WheatButtonMinus: {fileID: 845230774}
-  WheatText: {fileID: 1414765097}
---- !u!4 &1955361338
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1955361336}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 321, y: 210.85571, z: -92.84472}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2007355094
 GameObject:
   m_ObjectHideFlags: 0
@@ -4285,49 +4134,3 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2095230266}
   m_CullTransparentMesh: 0
---- !u!1 &2144836960
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2144836962}
-  - component: {fileID: 2144836961}
-  m_Layer: 0
-  m_Name: WoodCounter
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &2144836961
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2144836960}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f12d4dd210664342a94146a41d2ca0c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WheatButtonPlus: {fileID: 631452488}
-  WheatButtonMinus: {fileID: 397109332}
-  WheatText: {fileID: 1762387358}
---- !u!4 &2144836962
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2144836960}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 321, y: 210.85571, z: -92.84472}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
