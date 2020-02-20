@@ -1466,6 +1466,7 @@ GameObject:
   - component: {fileID: 718505460}
   - component: {fileID: 718505459}
   - component: {fileID: 718505461}
+  - component: {fileID: 718505462}
   m_Layer: 0
   m_Name: Scene Manager
   m_TagString: Untagged
@@ -1531,6 +1532,21 @@ MonoBehaviour:
   WoodButtonMinus: {fileID: 397109332}
   White_WoodCounter: 0
   WoodText: {fileID: 1762387358}
+--- !u!114 &718505462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 718505458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19146b020efe3244ba86cf5e116ad4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uiText: {fileID: 301438538}
+  mainTimer: 0
+  button: {fileID: 1390256796}
 --- !u!1 &798922924
 GameObject:
   m_ObjectHideFlags: 0
@@ -2984,13 +3000,13 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 718505459}
           m_MethodName: SceneLoader
           m_Mode: 3
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 7
+            m_IntArgument: 3
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 0
